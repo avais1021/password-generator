@@ -35,8 +35,10 @@
     color: black;
     font-size: 25px;
     padding: 8px;
+    padding-top: 28px;
     font-family: monospace;
     position: relative;
+    word-break: break-all;
 }
 #pass-box img{
     position: absolute;
