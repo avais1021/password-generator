@@ -46,6 +46,7 @@ const generatePassword = (password = "") => {
     clip.src = 'copyIcon.png' ;
     clip.addEventListener("click" , function(){
             navigator.clipboard.writeText(passBox.innerText);
+            clip.style.border = "2px solid black" ;
     })
 }
 generatePassword();

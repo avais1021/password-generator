@@ -43,11 +43,19 @@
     right: 5px;
     top: 4px;
     width: 40px;
+    border-radius: 5px;
 }
+/* #pass-box img:hover{
+ border: 2px solid black;
+} */
 .row{
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
+}
+#total-char{
+    width: 45px;
+    font-size: 17px;
 }
 .box #btn {
     background: rgb(34,193,195);
