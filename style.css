@@ -20,8 +20,8 @@
 .section h2{
     color: red;
     /* font-size: 32px; */
-    font-size: 17px;
-    animation: moveTitle 2s linear infinite alternate ;
+    font-size: 24px;
+    animation: moveTitle 1.5s linear infinite alternate ;
     /* transition: 0.6s linear; */
     letter-spacing: 1px;
     text-shadow: -1.5px 1px white;
@@ -30,7 +30,7 @@
 
     @keyframes moveTitle {
         0%{
-            font-size: 17px;
+            font-size: 24px;
         }
   
         50%{
